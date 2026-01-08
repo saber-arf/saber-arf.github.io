@@ -1,15 +1,60 @@
 body {
-    font-family: Arial, sans-serif;
-    max-width: 900px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    max-width: 1000px;
     margin: auto;
-    background-color: #f4f4f4;
+    background-color: #f5f7fa;
     padding: 20px;
+    color: #333;
 }
 
+/* Titres */
 h1 {
     color: #2c3e50;
+    margin-bottom: 5px;
 }
 
 h2 {
     color: #34495e;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #2c3e50;
+}
+
+/* Cartes */
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Images */
+.card img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+/* Liens */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+    font-size: 14px;
 }
